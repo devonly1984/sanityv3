@@ -4,4 +4,12 @@ module.exports = {
 	experimental: {
 		appDir: true,
 	},
+	images: {
+		remotePatterns: [{
+			protocol: 'https',
+			hostname: 'links.papareact.com',
+			port: '',
+			pathname: '/1m8'
+		}]
+	},
 };
