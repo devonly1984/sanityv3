@@ -7,7 +7,7 @@ type Props = {
 };
 const PreviewBlogList = ({ query }: Props) => {
 	const posts = usePreview(null, query);
-	console.log("Loading Posts", posts);
+
 	return (
 		<div>
 			<BlogList posts={posts} />

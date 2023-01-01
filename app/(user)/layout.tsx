@@ -7,7 +7,7 @@ const RootLayout = ({ children }: { children: ReactNode }) => {
 		<html>
 			<head />
 
-			<body>
+			<body className="max-w-7xl mx-auto">
 				<Header />
 				<Banner />
 				{children}
